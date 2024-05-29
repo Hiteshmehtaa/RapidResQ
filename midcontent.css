@@ -1,0 +1,78 @@
+.box-1,
+        .box-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+
+            padding: 0px 40px;
+        }
+
+        .h2 {
+            font-size: 55px;
+            font-family: "Nanum Gothic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .p {
+            font-size: 22px;
+        }
+
+        .common {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: transparent;
+            margin-top: 2vh;
+            border: 2px solid rgb(0, 179, 179);
+            transition: 0.4s ease;
+        }
+
+        .common:hover {
+            background-color: rgb(0, 179, 179);
+            /* border-radius: 20px; */
+            color: white;
+        }
+
+        .box-2 {
+            /* background-image: url(https://lrwonline.com/wp-content/uploads/2019/03/BLOG-Sad-Dog-1200x900-1200x900.jpg); */
+
+            background: linear-gradient(rgba(11, 110, 110, 0.466), rgba(11, 110, 110, 0.466)),
+                url(https://lrwonline.com/wp-content/uploads/2019/03/BLOG-Sad-Dog-1200x900-1200x900.jpg);
+            background-size: cover;
+            background-position: center;
+
+            color: white;
+        }
+
+        .common-2 {
+            margin-top: 2vh;
+            padding: 20px 30px;
+            font-size: 18px;
+            border: none;
+            color: white;
+            background-color: rgb(0, 179, 179);
+        }
+
+        @media screen and (max-width: 450px) {
+
+            .box-1,
+            .box-2 {
+                height: fit-content;
+            }
+
+            .h2 {
+                font-size: 35px;
+            }
+
+            .p {
+                font: 12;
+            }
+
+            .common,
+            .common-2 {
+                margin-bottom: 7vh;
+            }
+        }

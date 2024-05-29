@@ -1,0 +1,518 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    flex:1;
+}
+.ul{
+    display:flex;
+    flex:0.5;
+    list-style-type: none;
+    gap:2rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ul a{
+    text-decoration: none;
+    color:white;
+
+}
+.ul a:hover{
+  color:#64BCBD
+}
+.img{
+    display: flex;
+    /* transform:translate(40rem); */
+    flex:0.5;
+    /* justify-content: flex-end; */
+
+}
+.logo{
+    width:3rem;
+}
+.loginbutton{
+  padding-inline: 10px;
+  padding-block: 15px;
+  border-radius: 8px;
+  width: 100px;
+  background-color:#64BCBD;
+  color:white;
+  border:none;
+}
+.loginbutton:hover{
+  background-color:#356364;
+  color:white;
+  border:none;
+}
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+main{
+    text-align: center;
+    padding: 2rem;
+    margin: 4rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog{
+    margin: 2rem;
+    color:white;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+.button {
+    background-color: #64BCBD;
+    color: white;
+    width:9rem;
+    padding-inline:1rem;
+    padding-block:0.6rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1.6rem;
+    transition: background-color 0.3s;
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: rgba(5, 81, 68, 0.894)
+}
+.icon{
+    width:2rem;
+    height:2rem;
+}
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3f3f3f;
+}
+
+.upload-button {
+    background-color: #64BCBD;
+}
+
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  font-family: "Poppins", sans-serif;
+}
+.section {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display:none;
+  transform: translate(0,-70%);
+}
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  top:6vw;
+  right:30.2vw;
+  z-index: 1;
+  color: #171616c4;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: rgba(0, 0, 0, 0.286);
+  cursor: pointer;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 600px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+input:focus ~ label {
+  top: -5px;
+}
+
+input:valid ~ label {
+  top: -5px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+
+ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+.checkbox{
+  height:auto;
+  width: auto;
+}
+.forget {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.forget label:nth-child(2) {
+  order: 1;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.forget label a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.forget label a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+.login a{
+  text-decoration: none;
+  color:#64BCBD;
+}
+
+.register {
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+ .form-box {
+    width: 100%;
+    height: auto;
+  }
+
+ .inputbox {
+    width: 100%;
+  }
+
+ .forget {
+    flex-direction: column;
+  }
+
+ .forget label {
+    margin-bottom:10px;
+ }
+
+
+ @media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+ .ul {
+    flex-direction: column;
+  }
+
+ .ul a {
+    margin-bottom: 10px;
+  }
+}
+}
+
+
+
+footer{
+  background-color: black;
+
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: black;
+  color: #fff;
+}
+
+.quick-links,
+.get-involved,
+.newsletter {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 30px;
+}
+
+.quick-links h4,
+.get-involved h4,
+.newsletter h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.quick-links ul,
+.get-involved ul,
+.newsletter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li,
+.get-involved li {
+  margin-bottom: 5px;
+}
+
+.quick-links a,
+.get-involved a,
+.newsletter a {
+  color: #858585;
+  text-decoration: none;
+  display: block;
+}
+
+.newsletter{
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.newsletter input[type="email"] {
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.newsletter button[type="submit"] {
+  border: none;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+.newsletter button[type="submit"]:hover {
+  background-color: #f3eded;
+  color: black;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer-bottom li {
+  margin-right: 10px;
+}
+
+.footer-bottom a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.box-1,
+        .box-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+
+            padding: 0px 40px;
+        }
+
+        .h2 {
+            font-size: 55px;
+            font-family: "Nanum Gothic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .p {
+            font-size: 22px;
+        }
+
+        .common {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: transparent;
+            margin-top: 2vh;
+            border: 2px solid rgb(0, 179, 179);
+            transition: 0.4s ease;
+        }
+
+        .common:hover {
+            background-color: rgb(0, 179, 179);
+            /* border-radius: 20px; */
+            color: white;
+        }
+
+        .box-2 {
+            /* background-image: url(https://lrwonline.com/wp-content/uploads/2019/03/BLOG-Sad-Dog-1200x900-1200x900.jpg); */
+
+            background: linear-gradient(rgba(11, 110, 110, 0.466), rgba(11, 110, 110, 0.466)),
+                url(https://lrwonline.com/wp-content/uploads/2019/03/BLOG-Sad-Dog-1200x900-1200x900.jpg);
+            background-size: cover;
+            background-position: center;
+
+            color: white;
+        }
+
+        .common-2 {
+            margin-top: 2vh;
+            padding: 20px 30px;
+            font-size: 18px;
+            border: none;
+            color: white;
+            background-color: rgb(0, 179, 179);
+        }
+
+        @media screen and (max-width: 450px) {
+
+            .box-1,
+            .box-2 {
+                height: fit-content;
+            }
+
+            .h2 {
+                font-size: 35px;
+            }
+
+            .p {
+                font: 12;
+            }
+
+            .common,
+            .common-2 {
+                margin-bottom: 7vh;
+            }
+        }
